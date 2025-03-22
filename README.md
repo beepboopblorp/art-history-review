@@ -9,6 +9,8 @@ Click on the "Choose Matching Game Settings" link to review through the memory m
 <h2> Choose Settings </h2>
 Click on the unit that you want to review. You can only review one unit at a time, or all units at the same time. The first button clicked will be the unit registered by the site. If you want to choose a different unit, reload the site. Currently, only units from Global Prehistory to Indigenous Americas have information input in the site, so only those buttons will work properly. Once you have chosen a unit, select the type of identifier you want to review, then click "Continue". If you want to review the images themselves, select "forms".
 
+If you want to review terms and definitions instead of specific art piece information, click the "Terms and Definitions" button. You will not need to select an identifier, and it will go directly to the study game.
+
 <h2> Memory Matching Game </h2>
 Click on a card to "flip" it, so it shows the information on it. Then click on another card to do the same. For two cards to match, one must state the name of the image and the type of identifier, and the other must state the identifier for that image, or show the image in the case of forms. For example, one card could state "Anthropomorphic Stele material" and the other card could state "sandstone" for the match to be correct. If a match is correct, the cards will turn white and the border will turn green, and they cannot be clicked again. If the match is incorrect, the cards will briefly turn red before hiding the information again. Once all matches have been correctly paired, a screen saying "You completed the game! Click return to play again." will appear. The return button will redirect you to the initial page.
 

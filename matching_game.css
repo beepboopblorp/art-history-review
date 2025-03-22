@@ -44,8 +44,26 @@ ul {
     color: black;
 }
 
+#select_terms {
+    border: 2px solid rebeccapurple;
+    border-radius: 15px;
+    color: rebeccapurple;
+    font-size: 17.5px;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+#select_terms:hover {
+    background-color: rebeccapurple;
+    color: black;
+}
+
 a {
     color: rebeccapurple;
+    font-size: 20px;
 }
 
 a:hover {
@@ -106,7 +124,7 @@ label {
     display: none;
 }
 
-.answer, #showoptions, #endgame {
+.answer, #showoptions, #endgame, #showart, #submit_type {
     background-color: rebeccapurple;
     color: white;
     border-radius: 5px;
@@ -116,17 +134,21 @@ label {
     font-family: "Courier New";
 }
 
+.answer {
+    font-size: 15px;
+}
+
 .answer:hover {
     background-color: white;
     color: rebeccapurple;
 }
 
-#showoptions:hover {
+#endgame:hover {
     background-color: white;
     color: rebeccapurple;
 }
 
-#endgame:hover {
+#submit_type:hover {
     background-color: white;
     color: rebeccapurple;
 }

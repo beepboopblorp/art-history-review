@@ -27,7 +27,7 @@ class def {
 async function fetchartinfo() {
     let data;
     try {
-        let response = await fetch('http://localhost:3000/art');
+        let response = await fetch('https://art-history-review.vercel.app/api/art');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -54,7 +54,7 @@ async function fetchartinfo() {
 async function fetchterminfo() {
     let data;
     try {
-        let response = await fetch('http://localhost:3000/terms');
+        let response = await fetch('https://art-history-review.vercel.app/api/terms');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

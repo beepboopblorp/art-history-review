@@ -7,6 +7,7 @@ body {
     padding-top: 1.5%;
     padding-left: 6.5%;
     padding-right: 6.5%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
@@ -40,23 +41,6 @@ ul {
 }
 
 .select_unit:hover {
-    background-color: rebeccapurple;
-    color: black;
-}
-
-#select_terms {
-    border: 2px solid rebeccapurple;
-    border-radius: 15px;
-    color: rebeccapurple;
-    font-size: 17.5px;
-    padding: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 10px;
-    background-color: black;
-}
-
-#select_terms:hover {
     background-color: rebeccapurple;
     color: black;
 }
@@ -163,4 +147,8 @@ label {
 
 #artimgs {
     display: none;
+}
+
+#loading * {
+    display: inline-block;
 }

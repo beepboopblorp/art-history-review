@@ -2,6 +2,7 @@ const apikey = process.env.API_KEY;
 
 export default async function handler(req, res) {
     try {
+        res.setHeader('Access-Control-Allow-Origin', '*');
         let baseurl = "https://api.airtable.com/v0/appdBUgtvIa4EvA6y/tblaaRZKkZSGAmEGk";
         let response = await fetch(baseurl, {method: 'GET', headers: {'Content-Type': 'application/json', 'Authorization': `Bearer ${apikey}`}});
         let data = await response.json();
